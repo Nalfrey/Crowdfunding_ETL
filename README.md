@@ -2,10 +2,12 @@
 The DataFrame contains a "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories 
 The DataFrame has a "category" column that contains only the category titles
 The category DataFrame is exported as category.csv
+
 **A Subcategory DataFrame is Created**
 The DataFrame contains a "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories 
 The DataFrame contains a "subcategory" column that contains only the subcategory titles 
 The subcategory DataFrame is exported as subcategory.csv
+
 **A Campaign DataFrame is Created**
 The DataFrame has the following columns: 
 A "cf_id" column
@@ -23,6 +25,7 @@ An "end_date" with the UTC times converted to the datetime format
 A "category_id" column that contains the unique identification numbers matching those in the "category_id" column of the category DataFrame
 A "subcategory_id" column that contains the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 The campaign DataFrame is exported as campaign.csv 
+
 **A Contacts DataFrame is Created**
 The DataFrame has the following columns: 
 A "contact_id" column
