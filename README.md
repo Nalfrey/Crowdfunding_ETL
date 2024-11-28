@@ -26,6 +26,7 @@ A "category_id" column that contains the unique identification numbers matching 
 A "subcategory_id" column that contains the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 The campaign DataFrame is exported as campaign.csv 
 
+
 **A Contacts DataFrame is Created**
 The DataFrame has the following columns: 
 A "contact_id" column
